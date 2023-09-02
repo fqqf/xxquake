@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
 
     public LayerMask groundLayer;
+    public Animator Animator;
 
     public bool isGrounded;
 
@@ -56,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
         float x = movement.ReadValue<Vector2>().x;
         float z = movement.ReadValue<Vector2>().y;
-        
+        Animator.SetFloat("speed", Mathf.Abs(x)+Mathf.Abs(z));
         move = transform.right * x + transform.forward * z;
 
         characterController.Move(move * speed * Time.deltaTime);
@@ -80,6 +81,5 @@ public class PlayerMovement : MonoBehaviour
     void Jump()
     {
         velocity.y = Mathf.Sqrt(jumpHeight * 2 * -gravity);
-        Debug.Log(velocity.y);
     }
 }
