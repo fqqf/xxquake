@@ -107,7 +107,7 @@ public class Gun : MonoBehaviour
         muzzleFlush.Play();
 
         currentAmmo--;
-        if (Physics.Raycast(fpsCam.position, fpsCam.forward, out hit, range))
+        if (Physics.Raycast(fpsCam.forward*1+fpsCam.position, fpsCam.forward, out hit, range))
         {
             if (hit.rigidbody != null)
             {
