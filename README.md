@@ -1,4 +1,4 @@
 # xxquake
 
-![image](https://github.com/fqqf/xxquake/assets/77983090/46a3292d-6a14-4888-843d-5a2b53376cec)
-![image](https://github.com/fqqf/xxquake/assets/77983090/0f4119b6-4d30-45ce-9fdc-fdb113500d8a)
+![image](https://github.com/fqqf/xxquake/assets/77983090/edf5dc62-1a77-468a-9c9c-e90c69839e28)
+![image](https://github.com/fqqf/xxquake/assets/77983090/7d8b71d4-006c-4095-8c8d-1c2ec89752e7)
